@@ -1,0 +1,30 @@
+{
+  "name": "kiota-frontend",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "./src/main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "@typescript-eslint/eslint-plugin": "^8.2.0",
+    "@typescript-eslint/parser": "^8.2.0",
+    "eslint": "^9.9.1",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@microsoft/kiota-abstractions": "1.0.0-preview.59",
+    "@microsoft/kiota-http-fetchlibrary": "1.0.0-preview.58",
+    "@microsoft/kiota-serialization-form": "1.0.0-preview.48",
+    "@microsoft/kiota-serialization-json": "1.0.0-preview.59",
+    "@microsoft/kiota-serialization-multipart": "1.0.0-preview.37",
+    "@microsoft/kiota-serialization-text": "1.0.0-preview.56"
+  }
+}
